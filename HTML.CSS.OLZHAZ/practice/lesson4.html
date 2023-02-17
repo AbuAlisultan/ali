@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="css/lesson4.css">
+    <title>Занятие №4</title>
+</head>
+<body>
+    <div class="topic">
+        <h3 class="title" id="keyTopic">
+            Занятие №4. Изображения. Гиперссылки.
+        </h3>
+    </div>
+    <hr>
+    <div class="topic">
+        <h4 class="title" id="images">
+            1. Изображения. HTML: (&lt;img&gt;).
+        </h4>
+        <!--  -->
+        <p>
+            - Добавление изображения на веб-страницу. <br><br>
+        </p>
+        <!--  -->
+        <p>
+            - Как использовать: <br><br>
+            <b>&lt;img src="</b>ссылка на изображение<b>"&gt;</b>
+        </p>
+        <!--  -->
+        <p>- Пример: </p>
+        <img id="callBox" src="https://homebusiness.ru/wp-content/uploads/2017/09/005_original_68.jpg" alt="телефонная будка"
+        >
+        <!--  -->
+        <p>- Какие атрибуты HTML тега существуют?</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <b>alt</b>
+                    </td>
+                    <td>
+                        - альтернативный текст. Показывается когда не удается найти или загрузить изображение.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>align</b>
+                    </td>
+                    <td>
+                        - выравнивание изображения и обтекания текстом (bottom | left | middle | right | top).
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>src</b>
+                    </td>
+                    <td>
+                        - cсылка или путь на изображение.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>height</b>
+                    </td>
+                    <td>
+                        - высота изображения.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>width</b>
+                    </td>
+                    <td>
+                        - ширина изображения.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>hspace</b>
+                    </td>
+                    <td>
+                        - горизонтальный отступ от изображения до окружения.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>vspace</b>
+                    </td>
+                    <td>
+                        - вертикальный отступ от изображения до окружения.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="topic">
+        <h4 class="title" id="hyperlinks">
+            2. Гиперссылки. HTML: (&lt;a&gt; &lt;/a&gt;).
+        </h4>
+        <!--  -->
+        <p>- Это элемент веб-страницы, при нажатии на который происходит переход на другой адрес или ссылку.</p>
+        <!--  -->
+        <p>
+            - Как использовать:<br><br>
+            <b>&lt;a href="</b>ссылка<b>"&gt;</b>Вторая страница<b>&lt;/a&gt;</b>
+        </p>
+        <!--  -->
+        <p>
+            - Пример: 
+            <a href="training.html" title="Переход на вторую страницу с практикой." target="_blank">
+                Вторая страница
+            </a>
+        </p>
+        <!--  -->
+        <p>- Какие атрибуты HTML тега существуют?</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <b>href</b>
+                    </td>
+                    <td>
+                        - ссылка.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>target</b>
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;(_self) - загрузка страницы в текущее окно браузера.<br>
+                        &nbsp;&nbsp;(_blank) - загрузка страницы в новом окне браузера.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!--  -->
+        <p>
+            - Какой еще функционал выполняется? =>
+            <b>Функционал якорей - передвижение внутри страницы.</b> <br><br>
+            &nbsp;&nbsp;<b>&lt;a href="#keyTopic"&gt;Тема&lt;/a&gt;</b>
+        </p>
+
+        <div class="navbar">
+            <a href="#keyTopic">Тема</a>
+            <a href="#images">1.1. Изображения</a>
+            <a href="#hyperlinks">1.2. Гиперссылки</a>
+            <a href="#background">1.3. Задний фон</a>
+        </div>
+
+        <p style="margin-top: 50px">
+            - Вопрос: Куда приведет эта ссылка? => 
+            &lt;a href="page2.html#keyTopic"&gt;Контент&lt;/a&gt;
+        </p>
+
+        <!--  -->
+        <p style="margin-top: 50px">
+            - С каких CSS значений стоит начать работать: 
+            <b>color, text-decoration, display, cursor</b>.
+        </p>
+    </div>
+    <hr>
+    <div class="topic">
+        <h4 class="title" id="background">
+            3. Задний фон. CSS: (background).
+        </h4>
+        <!--  -->
+        <p>
+            - Универсальное свойство: <b>background</b> - задать задний фон.
+        </p>
+        <!--  -->
+        <p>
+            - Конкретные варианты:<br><br>
+            <b>background-color: цвет</b> - использует цветовое значение. <br><br>
+            <b>background-image: url()</b> - использует ссылку на изображение.
+        </p>
+        <!--  -->
+        <p>
+            - CSS свойства и значения:
+        </p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <b>background-attachment</b>
+                    </td>
+                    <td>
+                        (fixed) - Делает фоновое изображение элемента неподвижным относительно экрана.<br>
+                        (scroll) - Позволяет перемещаться фону вместе с содержимым.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>background-position</b>
+                    </td>
+                    <td>
+                        - Задает положение фонового изображения (работает background-image).
+                        Значения: top | right | bottom | left | center.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>background-repeat</b>
+                    </td>
+                    <td>
+                        - Повторение заднего фона (работает background-image).
+                        Значения: no-repeat | repeat | repeat-x | repeat-y.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>background-size</b>
+                    </td>
+                    <td>
+                        - Размер фонового изображения (работает background-image).
+                        Значения: cover | contain | пиксели | %.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

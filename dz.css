@@ -1,0 +1,36 @@
+#main {
+    display: flex;
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+#main > div {
+    margin: 10px;
+}
+#row {
+    align-items: space-start
+    background-color: white;
+    flex-flow: column wrap;
+    width: 25%;
+    height: 25%;
+}
+#main > div {
+    margin: 10px;
+}
+#row1 {
+    align-items: flex-start;
+    background-color: white;
+    flex-flow: column wrap;
+    width: 25%;
+    height: 25%;
+}
+#main > div {
+    margin: 10px;
+}
+#row2 {
+    align-items: flex-start;
+    background-color: white;
+    flex-flow: column wrap;
+    width: 25%;
+    height: 25%;
+}

@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+}
+#background{
+    background-color: orangered;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+      
+}
+
+#fon2{
+    background-color: grey;
+    width: 30vw;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#main{
+    padding-top: 40px;
+
+}
+
+.text1{
+    text-align: center;
+
+}
+.insert{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 80%;
+ 
+}
+
+form * {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: brown
+}
+button{
+    background-color: green;
+}
+
+p{
+    color: white;
+}
+
+#social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}

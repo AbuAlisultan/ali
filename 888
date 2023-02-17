@@ -1,0 +1,9 @@
+let bool = false
+
+if ( bool) {
+    console.log('its true')
+} else if (!bool) {
+    console.log('its false')
+} else {
+    console.log ('never happends')
+}

@@ -1,0 +1,67 @@
+
+.article {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* >> Псевдоклассы: hover и active. */
+
+/* Общий css стиль для всех HTML элементов с этим классом. */
+.myBlock {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.myBlock > p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Мышь находится над html элементом с классом .myBlock */
+.myBlock:hover {
+    background: red;
+}
+
+/* HTML элемент с классом .myBlock на данный момент нажат (находится в активном состоянии).гы*/
+.myBlock:active {
+    background: green;
+}
+
+/* >> Псевдоклассы: first-child, last-child, nth-child. */
+
+.parentBlock {
+    width: 300px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+/* Общий css стиль для всех HTML элементов с этим классом. */
+.childBlock {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+}
+
+.childBlock > p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Первый HTML элемент у которого имеется класс .childBlock */
+.childBlock:first-child {
+    background: red;
+}
+
+/* Последний HTML элемент у которого имеется класс .childBlock */
+.childBlock:last-child {
+    background: blue;
+}
+
+/* Указанный N-ный HTML элемент у которого имеется класс .childBlock */
+.childBlock:nth-child(3) {
+    background: brown;
+}

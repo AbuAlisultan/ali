@@ -1,0 +1,36 @@
+#parent_conteiner {
+    display: flex;
+}
+#conteiner1 {
+    display: flex;
+    background: yellow;
+    padding: 30px;
+}
+
+#conteiner1 > div {
+    margin: 10px;
+
+}
+#square1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+#conteiner1 > div {
+    margin: 10px;
+
+}
+#square2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+#conteiner1 > div {
+    margin: 10px;
+
+}
+#square3 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
